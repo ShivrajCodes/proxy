@@ -2,11 +2,11 @@
   "name": "proxy-server",
   "version": "1.0.0",
   "description": "A proxy server to bypass CORS for NewsAPI requests",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "build": "echo 'Building proxy server...' && mkdir -p dist && cp -r src/* dist/",
+    "build": "npm run build",
     "start": "node dist/server.js",
-    "prestart": "npm run build",
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
