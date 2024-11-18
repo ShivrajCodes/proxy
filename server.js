@@ -12,7 +12,7 @@ app.get('/news', async (req, res) => {
       params: {
         country: 'in',
         category: 'health',
-        apiKey: 'a4496b4273874f91b2477521f30d005c',
+        apiKey: 'pub_596385eb4097a53d1aa17ae97d9dba707da6a',
       },
     });
     res.json(response.data);
